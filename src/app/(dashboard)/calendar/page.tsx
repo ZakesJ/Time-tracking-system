@@ -7,6 +7,7 @@ import { PageHeader } from "@/components/layout/header/header-component";
 import { Task } from "@/lib/types";
 import { useState, useEffect } from "react";
 import { useTaskStore } from "@/stores/task-store";
+import { Dialog } from "@/components/common/dialog";
 
 export default function CalendarPage() {
   // Get tasks and actions from Zustand store
@@ -90,15 +91,15 @@ export default function CalendarPage() {
        onDuplicateTask={handleDuplicateTask}
        onUpdateTask={handleUpdateTask}
      />
-     <AddTaskDialogContent
-       open={isAddTaskOpen}
-       onOpenChange={handleDialogClose}
-       onAddTask={handleAddTask}
-       selectedSlot={selectedSlot}
-       editingTask={editingTask}
-       onDeleteTask={handleDeleteTask}
-       onDuplicateTask={handleDuplicateTask}
-     />
+     <Dialog open={isAddTaskOpen} onOpenChange={handleDialogClose}>
+       <AddTaskDialogContent
+         onAddTask={handleAddTask}
+         selectedSlot={selectedSlot}
+         editingTask={editingTask}
+         onDeleteTask={handleDeleteTask}
+         onDuplicateTask={handleDuplicateTask}
+       />
+     </Dialog>
    </div>
     </div>
   );

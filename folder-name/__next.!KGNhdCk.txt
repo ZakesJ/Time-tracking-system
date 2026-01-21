@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[39756,["/Time-tracking-system/_next/static/chunks/ff1a16fafef87110.js","/Time-tracking-system/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+3:I[37457,["/Time-tracking-system/_next/static/chunks/ff1a16fafef87110.js","/Time-tracking-system/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+0:{"buildId":"_vGV2lfggwmPlNS4HRxMu","rsc":["$","$1","c",{"children":[null,["$","div",null,{"className":"flex flex-col md:flex-row min-h-screen bg-white md:p-2","children":["sjkahdkjshdjksahdashdsajkhd",["$","div",null,{"className":"h-full w-full","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","div",null,{"children":["$","h1",null,{"children":"Page not found"}]}],[]]}]}]]}]]}],"loading":null,"isPartial":false}
